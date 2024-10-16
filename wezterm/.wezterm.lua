@@ -15,9 +15,8 @@ config.window_background_opacity = 1.0
 config.macos_window_background_blur = 40
 
 -- appearance
-config.color_scheme = 'Catppuccin Mocha (Gogh)'
--- config.color_scheme = 'nightfox'
--- config.color_scheme = 'terafox'
+-- config.color_scheme = 'Catppuccin Mocha (Gogh)'
+config.color_scheme = 'nightfox'
 config.font = wezterm.font_with_fallback({
     {family="JetBrainsMono Nerd Font", weight="DemiBold"},
     {family="Twemoji Mozilla", assume_emoji_presentation = true},
