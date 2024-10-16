@@ -46,6 +46,8 @@ alias el="eza -l --icons --git -a"
 alias elt="eza --tree --level=3 --long --icons --git"
 alias cdr='cd $(git rev-parse --show-toplevel)'
 
+alias y='yazi'
+
 alias rustbook='rustup doc --book'
 alias gcommit='~/dotfiles/scripts/gum/better_commit.sh'
 alias gswitch='~/dotfiles/scripts/gum/better_switch.sh'
