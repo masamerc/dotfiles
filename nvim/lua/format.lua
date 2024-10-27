@@ -3,7 +3,7 @@ local workenv = os.getenv("WORK_ENV")
 local hostname = os.getenv("HOSTNAME")
 
 if workenv == "work" then
-	vim.cmd("colorscheme catppuccin")
+	vim.cmd("colorscheme mellow")
 elseif workenv == "linux" then
 	vim.cmd("colorscheme tokyonight-night")
 else

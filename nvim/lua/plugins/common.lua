@@ -240,6 +240,7 @@ return {
 		end,
 	},
     { "sindrets/diffview.nvim" },
+    { "mellow-theme/mellow.nvim" },
     {
         "goolord/alpha-nvim",
         dependencies = {
