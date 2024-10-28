@@ -11,7 +11,7 @@ local config = {}
 -- general
 config.enable_tab_bar = false
 config.enable_scroll_bar = false
-config.window_background_opacity = 0.90
+config.window_background_opacity = 0.95
 config.macos_window_background_blur = 40
 
 -- appearance
@@ -25,7 +25,7 @@ config.font = wezterm.font_with_fallback({
 config.font_size = 13
 config.window_decorations = 'RESIZE'
 config.colors = {
-  background = '#1f1f1f',
+  background = '#121212',
 }
 
 
@@ -37,6 +37,10 @@ scheme.ansi = {
 scheme.brights = {
     "#6e6a86","#eb6f92","#9ccfd8","#f6c177","#3eb1b4","#c4a7e7","#ebbcba","#e0def4"
 }
+
+scheme.selection_bg = "#ffffff"
+scheme.selection_fg = "#ffffff"
+
 config.color_schemes = {
     ['rose-pine'] = scheme,
 }
