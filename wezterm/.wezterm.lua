@@ -26,7 +26,7 @@ config.font = wezterm.font_with_fallback({
 config.font_size = 13
 config.window_decorations = 'RESIZE'
 config.colors = {
-  background = '#1c1b1b',
+  background = '#202020',
 }
 
 
