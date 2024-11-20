@@ -13,6 +13,7 @@ config.enable_tab_bar = false
 config.enable_scroll_bar = false
 config.window_background_opacity = 0.95
 config.macos_window_background_blur = 40
+config.max_fps = 120
 
 -- appearance
 -- config.color_scheme = 'Catppuccin  (Gogh)'
