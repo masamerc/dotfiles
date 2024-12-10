@@ -21,8 +21,10 @@ require("mason-lspconfig").setup({
 	},
 })
 require("lspconfig").rust_analyzer.setup({
-    diagnostic = {
-        refreshSupport = false,
+    settings = {
+        diagnostic = {
+            refreshSupport = false,
+        }
     }
 })
 require("lspconfig").gopls.setup({
