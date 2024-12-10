@@ -20,7 +20,11 @@ require("mason-lspconfig").setup({
 		"yamlls",
 	},
 })
-require("lspconfig").rust_analyzer.setup({})
+require("lspconfig").rust_analyzer.setup({
+    diagnostic = {
+        refreshSupport = false,
+    }
+})
 require("lspconfig").gopls.setup({
 	settings = {
 		gopls = {
