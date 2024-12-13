@@ -164,3 +164,15 @@ vim.keymap.set("n", "<leader>si", toggle_inlay_hints, { desc = "toggle inlay hin
 -- LSP handlers
 vim.lsp.handlers["textDocument/publishDiagnostics"] =
 	vim.lsp.with(vim.lsp.diagnostic.on_publish_diagnostics, { virtual_text = true })
+
+
+-- rust lsp bug workaround
+for _, method in ipairs({ 'textDocument/diagnostic', 'workspace/diagnostic' }) do
+    local default_diagnostic_handler = vim.lsp.handlers[method]
+    vim.lsp.handlers[method] = function(err, result, context, config)
+        if err ~= nil and err.code == -32802 then
+            return
+        end
+        return default_diagnostic_handler(err, result, context, config)
+    end
+end
