@@ -18,6 +18,7 @@ require("mason-lspconfig").setup({
 		"jsonls",
 		"dockerls",
 		"yamlls",
+        "zls",
 	},
 })
 require("lspconfig").rust_analyzer.setup({
@@ -49,6 +50,7 @@ require("lspconfig").tflint.setup({})
 require("lspconfig").jsonls.setup({})
 require("lspconfig").dockerls.setup({})
 require("lspconfig").yamlls.setup({})
+require("lspconfig").zls.setup({})
 
 require("lspconfig").lua_ls.setup({
 	settings = {
