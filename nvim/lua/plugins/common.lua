@@ -304,33 +304,38 @@ return {
 		"echasnovski/mini.files",
 		config = function()
 			require("mini.files").setup({
-                mappings = {
-                    close       = 'q',
-                    go_in       = 'l',
-                    go_in_plus  = '<ENTER>', -- originally 'L'
-                    go_out      = 'h',
-                    go_out_plus = 'H',
-                    mark_goto   = "'",
-                    mark_set    = 'm',
-                    reset       = '<BS>',
-                    reveal_cwd  = '@',
-                    show_help   = 'g?',
-                    synchronize = 'w',
-                    trim_left   = '<',
-                    trim_right  = '>',
-                },
-                -- General options
-                options = {
-                  use_as_default_explorer = true,
-                },
-            })
+				mappings = {
+					close = "q",
+					go_in = "l",
+					go_in_plus = "<ENTER>", -- originally 'L'
+					go_out = "h",
+					go_out_plus = "H",
+					mark_goto = "'",
+					mark_set = "m",
+					reset = "<BS>",
+					reveal_cwd = "@",
+					show_help = "g?",
+					synchronize = "w",
+					trim_left = "<",
+					trim_right = ">",
+				},
+				-- General options
+				options = {
+					use_as_default_explorer = true,
+				},
+			})
 		end,
 		version = false,
 	},
-    {
-      "masamerc/procrastinate.nvim",
-      config = function ()
-        require('procrastinate').setup()
-      end
-    }
+	{
+		"masamerc/procrastinate.nvim",
+		config = function()
+			require("procrastinate").setup()
+		end,
+	},
+	{
+		"rktjmp/lush.nvim",
+		-- if you wish to use your own colorscheme:
+		-- { dir = '/absolute/path/to/colorscheme', lazy = true },
+	},
 }
