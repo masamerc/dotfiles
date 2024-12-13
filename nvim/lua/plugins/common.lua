@@ -327,4 +327,10 @@ return {
 		end,
 		version = false,
 	},
+    {
+      "masamerc/procrastinate.nvim",
+      config = function ()
+        require('procrastinate').setup()
+      end
+    }
 }

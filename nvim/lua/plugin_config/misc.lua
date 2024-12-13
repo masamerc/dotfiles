@@ -38,4 +38,5 @@ vim.keymap.set("n", "<leader>gcd", "<cmd>Copilot disable<CR>", { desc = "Disable
 vim.keymap.set("n", "<leader>coe", "<cmd>Codeium Enable<CR>", { desc = "Enable codeium" })
 vim.keymap.set("n", "<leader>cod", "<cmd>Codeium Disable<CR>", { desc = "Disable codeium" })
 
--- codeium chat
+-- procrastinate.nvim
+vim.keymap.set("n", "<leader>t", "<cmd>InsertTodo<CR>", { desc = "Insert todo" })
