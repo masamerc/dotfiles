@@ -63,6 +63,7 @@ alias ff="fastfetch"
 alias code="code --enable-features=UseOzonePlatform --enable-features=WaylandWindowDecorations --ozone-platform-hint=auto"
 alias ya="yazi"
 alias lg="lazygit"
+alias cm="chezmoi"
 unalias zi
 
 # functions
