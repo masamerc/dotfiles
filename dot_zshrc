@@ -63,6 +63,9 @@ alias code="code --enable-features=UseOzonePlatform --enable-features=WaylandWin
 alias ya="yazi"
 alias lg="lazygit"
 alias cm="chezmoi"
+function cme() {
+    chezmoi edit "$(chezmoi managed | gum choose)"
+}
 unalias zi
 
 # functions
