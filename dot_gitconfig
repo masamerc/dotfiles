@@ -1,0 +1,35 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+
+[interactive]
+	diffFilter = delta --color-only
+
+[core]
+    pager = delta
+
+[delta]
+	side-by-side = true 
+	line-numbers = true
+	navigate = true
+	light = false
+
+[alias]
+    lp = log -p
+    ll = log --oneline
+    new = checkout -b
+    ri = rebase -i
+    st = status
+    cm = commit -m
+    w = worktree
+    co = checkout
+    cl = branch --merged | rg "(fix|feature)" | xargs git branch -D
+    undo = reset --soft HEAD^
+    d = diff
+    ds = diff --staged
+
+[user]
+	email = masahiro.m.fukui@gmail.com
+	name = Masa Fukui
