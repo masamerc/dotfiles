@@ -4,12 +4,12 @@ format = """
 [](color_bg1)\
 $os\
 $username\
-[](bg:color_fedora_blue fg:color_bg1)\
+[](bg:color_fedora_blue fg:color_bg1)\
 $directory\
-[](fg:color_fedora_blue bg:color_fedora_dark_blue)\
+[](fg:color_fedora_blue bg:color_fedora_dark_blue)\
 $git_branch\
 $git_status\
-[](fg:color_fedora_dark_blue bg:color_gray)\
+[](fg:color_fedora_dark_blue bg:color_gray)\
 $c\
 $rust\
 $golang\
@@ -20,7 +20,7 @@ $kotlin\
 $haskell\
 $python\
 $nix_shell\
-[](fg:color_gray)\
+[](fg:color_gray)\
 $line_break$character"""
 
 palette = 'custom'
