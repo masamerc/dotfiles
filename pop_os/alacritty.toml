@@ -1,0 +1,60 @@
+live_config_reload = true
+
+import = [
+    # "~/.config/alacritty/themes/tokyo-night.toml",
+    "~/.config/alacritty/themes/ashes_dark.toml",
+]
+
+[colors.primary]
+foreground = "#c5c8c6"
+# background = "#1d2021" # dark
+background = "#262626" # light
+
+[env]
+TERM = "xterm-256color"
+
+# Font settings
+[font]
+size = 10.5
+
+[font.bold]
+family = "JetBrainsMono Nerd Font"
+style = "Bold"
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+style = "SemiBold"
+
+# Window settings
+[window.padding]
+x = 5
+y = 5
+
+[[keyboard.bindings]]
+chars = "\u001Bb"
+key   = "Left"
+mods  = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u001Bf"
+key   = "Right"
+mods  = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u0001"
+key   = "Left"
+mods  = "Control"
+
+[[keyboard.bindings]]
+chars = "\u0005"
+key   = "Right"
+mods  = "Control"
+
+[window]
+decorations = "None"
+opacity = 0.98
+option_as_alt = "Both"
+
+[window.dimensions]
+columns =  150
+lines = 120
