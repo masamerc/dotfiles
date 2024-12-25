@@ -1,0 +1,8 @@
+modmap:
+  - name: Global # Optional
+    remap: # Required
+      # Replace a key with another
+      CapsLock:
+        held: Ctrl_L # Required, also accepts arrays
+        alone: Esc # Required, also accepts arrays
+        alone_timeout_millis: 1000 # Optional
