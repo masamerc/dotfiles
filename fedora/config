@@ -1,0 +1,15 @@
+# Ghostty Config
+
+theme = tokyonight-storm
+
+font-family = JetBrainsMono Nerd Font
+font-style = SemiBold
+font-size = 10.5
+
+
+foreground = #c5c8c6
+background = #1d2021
+window-decoration = false
+background-opacity = 0.98
+background-blur-radius = 20
+unfocused-split-opacity = 0.98
