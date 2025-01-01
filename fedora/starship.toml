@@ -1,15 +1,15 @@
 "$schema" = 'https://starship.rs/config-schema.json'
 
 format = """
-[](color_fedora_dark_blue)\
+[](custom_dark)\
 $os\
 $username\
-[](bg:color_bg1 fg:color_fedora_dark_blue)\
+[](bg:color_bg1 fg:custom_dark)\
 $directory\
-[](fg:color_bg1 bg:color_fedora_blue)\
+[](fg:color_bg1 bg:custom_light)\
 $git_branch\
 $git_status\
-[](fg:color_fedora_blue bg:color_gray)\
+[](fg:custom_light bg:color_gray)\
 $c\
 $rust\
 $golang\
@@ -34,16 +34,25 @@ color_blue = '#458588'
 color_aqua = '#689d6a'
 color_orange = '#d65d0e'
 color_purple = '#8058ac'
+
 color_fedora_blue = '#6f97cf'
 color_fedora_dark_blue = '#2e4980'
+
+color_fedora_purple = '#9999ff'
+color_fedora_dark_purple = '#8533ff'
+
 color_mauve = '#6272A4'
 color_red = '#cc241d'
 color_yellow = '#d79921'
 color_gray = '#44475a'
 
+# custom
+custom_light = '#b3b3ff' 
+custom_dark = '#5a5af2'
+
 [os]
 disabled = false
-style = "bg:color_fedora_dark_blue fg:color_fg0"
+style = "bg:custom_dark fg:color_fg0"
 
 [os.symbols]
 Windows = "󰍲"
@@ -68,8 +77,8 @@ RedHatEnterprise = "󱄛"
 
 [username]
 show_always = true
-style_user = "bg:color_fedora_dark_blue fg:color_fg0"
-style_root = "bg:color_fedora_dark_blue fg:color_fg0"
+style_user = "bg:custom_dark fg:color_fg0"
+style_root = "bg:custom_dark fg:color_fg0"
 format = '[ $user ]($style)'
 
 [directory]
@@ -80,12 +89,12 @@ truncation_symbol = "…/"
 
 [git_branch]
 symbol = ""
-style = "bg:color_fedora_blue"
-format = '[[ $symbol $branch ](fg:color_fg1 bg:color_fedora_blue)]($style)'
+style = "bg:custom_light"
+format = '[[ $symbol $branch ](fg:color_fg1 bg:custom_light)]($style)'
 
 [git_status]
-style = "bg:color_fedora_blue"
-format = '[[($all_status$ahead_behind )](fg:color_fg1 bg:color_fedora_blue)]($style)'
+style = "bg:custom_light"
+format = '[[($all_status$ahead_behind )](fg:color_fg1 bg:custom_light)]($style)'
 
 [nodejs]
 symbol = ""
