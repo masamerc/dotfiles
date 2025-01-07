@@ -1,6 +1,6 @@
 # Ghostty Config
 
-theme = embers-dark
+theme = Chalkboard
 
 font-family = JetBrainsMono Nerd Font
 font-style = SemiBold
@@ -8,7 +8,9 @@ font-size = 10.5
 
 
 foreground = #c5c8c6
-background = #1d2021
+# background = #1d2021
+background = #17191a
+
 window-decoration = false
 background-opacity = 0.98
 background-blur-radius = 20
