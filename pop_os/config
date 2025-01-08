@@ -1,17 +1,49 @@
 # Ghostty Config
 
-theme = Everforest Dark - Hard
-
 font-family = JetBrainsMono Nerd Font
 font-style = SemiBold
 font-size = 10.5
-
-
-foreground = #c5c8c6
-# background = #1d2021
-background = #17191a
 
 window-decoration = false
 background-opacity = 0.98
 background-blur-radius = 20
 unfocused-split-opacity = 0.98
+
+# Custom ashes-dark theme
+
+background = #17191a
+foreground = #c7ccd1
+cursor-color = #c7ccd1
+cursor-text = #1c2023
+
+# black
+palette = 0=#1c2023
+palette = 8=#747c84
+
+# red
+palette = 1=#c7ae95
+palette = 9=#c7ae95
+
+# green
+palette = 2=#95c7ae
+palette = 10=#95c7ae
+
+# yellow
+palette = 3=#aec795
+palette = 11=#aec795
+
+# blue
+palette = 4=#ae95c7
+palette = 12=#ae95c7
+
+# purple/magenta
+palette = 5=#c795ae
+palette = 13=#c795ae
+
+# cyan
+palette = 6=#95aec7
+palette = 14=#95aec7
+
+# white
+palette = 7=#c7ccd1
+palette = 15=#f3f4f5
