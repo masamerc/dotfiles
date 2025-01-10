@@ -132,3 +132,10 @@ function _sevp() {
 precmd_functions+=(_sevp)
 
 # DELETE UNTIL HERE TO UNINSTALL SEVP SHELLHOOK
+
+# bun completions
+[ -s "/home/bongo/.bun/_bun" ] && source "/home/bongo/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
