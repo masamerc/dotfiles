@@ -49,6 +49,7 @@ export PATH=$PATH:$HOME/.local/bin
 ############################################
 # alias
 alias c='clear'
+alias t='tmux'
 alias v='nvim'
 alias ff='screenfetch'
 alias ls='eza'
