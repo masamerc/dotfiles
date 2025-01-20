@@ -11,7 +11,7 @@ unfocused-split-opacity = 0.98
 
 # Custom ashes-dark theme
 
-background = #17191a
+background = #222626
 foreground = #c7ccd1
 cursor-color = #c7ccd1
 cursor-text = #1c2023
