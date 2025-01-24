@@ -90,7 +90,7 @@ bindkey '^E' edit-command-line
 # init
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+# eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 # fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
@@ -104,9 +104,9 @@ HISTSIZE=20000
 SAVEHIST=20000
 setopt SHARE_HISTORY
 
-. "$HOME/.atuin/bin/env"
+# . "$HOME/.atuin/bin/env"
 
-eval "$(atuin init zsh)"
+# eval "$(atuin init zsh)"
 
 ############################################
 # - NVM
