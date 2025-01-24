@@ -24,6 +24,23 @@
   # Enable networking
   networking.networkmanager.enable = true;
 
+  # Systemd services
+  systemd.services.xremap = {
+    description = "Xremap Key Remapping Service";
+    wantedBy = [ "multi-user.target" ];
+    serviceConfig = {
+      Restart = "on-failure";
+      Environment = [
+        "DISPLAY=:0"
+        "XAUTHORITY=/home/bongo/.Xauthority"
+      ];
+    };
+    path = [ pkgs.cargo ]; # Ensure `cargo` is in the path if needed
+    script = ''
+      /home/bongo/.cargo/bin/xremap /home/bongo/.config/xremap/config.yaml
+    '';
+  };
+
   # Zsh
   programs.zsh = {
     enable = true;
