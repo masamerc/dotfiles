@@ -64,6 +64,7 @@ alias code="code --enable-features=UseOzonePlatform --enable-features=WaylandWin
 alias ya="yazi"
 alias lg="lazygit"
 alias cm="chezmoi"
+alias rebuild="sudo nixos-rebuild -I nixos-config=$HOME/.config/nix/configuration.nix switch"
 function cme() {
     chezmoi edit "$(chezmoi managed | gum choose)"
 }
