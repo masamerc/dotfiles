@@ -1,5 +1,0 @@
-{{- if eq .chezmoi.hostname "fedora" -}}
-{{-   include "fedora/starship.toml" -}}
-{{- else if eq .chezmoi.hostname "pop-os" -}}
-{{-   include "pop_os/starship.toml" -}}
-{{- end -}}
