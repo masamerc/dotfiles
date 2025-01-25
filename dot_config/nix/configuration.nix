@@ -24,6 +24,19 @@
   # Enable networking
   networking.networkmanager.enable = true;
 
+  # Container
+  # Enable common container config files in /etc/containers
+   virtualisation.containers.enable = true;
+   virtualisation = {
+     podman = {
+       enable = true;
+       # Create a `docker` alias for podman, to use it as a drop-in replacement
+       dockerCompat = true;
+       # Required for containers under podman-compose to be able to talk to each other.
+       defaultNetwork.settings.dns_enabled = true;
+     };
+   };
+
   # Systemd services
   systemd.services.xremap = {
     description = "Xremap Key Remapping Service";
@@ -163,6 +176,13 @@
     zoxide
     eza
     cowsay
+
+    # container related
+    dive
+    podman
+    podman-compose
+    podman-tui
+    docker-compose
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
