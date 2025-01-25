@@ -164,6 +164,7 @@
     unzip
     delta
     lazygit
+    ripgrep
 
     xclip
 
