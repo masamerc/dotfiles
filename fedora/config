@@ -30,8 +30,8 @@ palette = 1=#c7ae95
 palette = 9=#c7ae95
 
 # green
-palette = 2=#9ece6a
-palette = 10=#b9f27c
+palette = 2=#95c7ae
+palette = 10=#95c7ae
 
 # yellow
 palette = 3=#aec795
