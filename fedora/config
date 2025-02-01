@@ -9,7 +9,7 @@ font-size = 10.5
 
 # foreground = #c5c8c6
 background = #242729
-window-decoration = false
+window-decoration = none
 background-opacity = 0.98
 background-blur-radius = 20
 unfocused-split-opacity = 0.98
