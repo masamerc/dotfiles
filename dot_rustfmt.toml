@@ -1,26 +1,2 @@
 # Set the maximum width of a line.
-max_width = 100
-
-# Control how imports are grouped.
-group_imports = "StdExternalCrate"
-
-# Use spaces or tabs for indentation.
-hard_tabs = false
-
-# Number of spaces per tab (if hard_tabs is false).
-tab_spaces = 4
-
-# Align function parameters and arguments.
-fn_call_width = 60
-
-# Control trailing commas in lists.
-trailing_comma = "Always"
-
-# Force single-line or multi-line style for imports.
-imports_granularity = "Crate"
-
-# Reorder imports alphabetically.
-reorder_imports = true
-
-# Style for matching braces.
-brace_style = "AlwaysNextLine"
+max_width = 80
