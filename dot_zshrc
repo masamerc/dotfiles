@@ -107,6 +107,7 @@ setopt SHARE_HISTORY
 . "$HOME/.atuin/bin/env"
 
 eval "$(atuin init zsh)"
+eval "$(direnv hook zsh)"
 
 ############################################
 # - NVM
