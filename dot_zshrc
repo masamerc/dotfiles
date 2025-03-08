@@ -87,10 +87,10 @@ bindkey '^E' edit-command-line
 # - Initialization & Plugins
 ############################################
 # init
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 eval "$(sevp init zsh)"
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 # fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
