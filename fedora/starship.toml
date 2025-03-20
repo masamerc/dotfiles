@@ -1,12 +1,12 @@
 "$schema" = 'https://starship.rs/config-schema.json'
 
 format = """
-[](custom_dark)\
+[](color_bg1)\
 $os\
 $username\
-[](bg:color_bg1 fg:custom_dark)\
+[](bg:custom_dark fg:color_bg1)\
 $directory\
-[](fg:color_bg1 bg:custom_light)\
+[](fg:custom_dark bg:custom_light)\
 $git_branch\
 $git_status\
 [](fg:custom_light bg:color_gray)\
@@ -28,7 +28,7 @@ palette = 'custom'
 [palettes.custom]
 color_fg0 = '#fbf1c7'
 color_fg1 = '#0b1420'
-color_bg1 = '#505049'
+color_bg1 = '#414559'
 color_bg3 = '#665c54'
 color_blue = '#458588'
 color_aqua = '#689d6a'
@@ -48,11 +48,11 @@ color_gray = '#44475a'
 
 # custom
 custom_light = '#b3b3ff' 
-custom_dark = '#674ac7'
+custom_dark = '#5b489a'
 
 [os]
 disabled = false
-style = "bg:custom_dark fg:color_fg0"
+style = "bg:color_bg1 fg:color_fg0"
 
 [os.symbols]
 Windows = "󰍲"
@@ -77,12 +77,12 @@ RedHatEnterprise = "󱄛"
 
 [username]
 show_always = true
-style_user = "bg:custom_dark fg:color_fg0"
-style_root = "bg:custom_dark fg:color_fg0"
+style_user = "bg:color_bg1 fg:color_fg0"
+style_root = "bg:color_bg1 fg:color_fg0"
 format = '[ $user ]($style)'
 
 [directory]
-style = "fg:color_fg0 bg:color_bg1"
+style = "fg:color_fg0 bg:custom_dark"
 format = "[ $path ]($style)"
 truncation_length = 4
 truncation_symbol = "…/"
