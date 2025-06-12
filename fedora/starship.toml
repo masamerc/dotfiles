@@ -47,8 +47,8 @@ color_yellow = '#d79921'
 color_gray = '#44475a'
 
 # custom
-custom_light = '#b3b3ff' 
-custom_dark = '#5b489a'
+custom_light = '#65e6cc' 
+custom_dark = '#318581'
 
 [os]
 disabled = false
