@@ -1,7 +1,7 @@
 general.live_config_reload = true
 
 general.import = [
-    "~/.config/alacritty/themes/ashes_dark.toml",
+    "~/.config/alacritty/themes/atom_one.toml",
 ]
 
 [colors.primary]
