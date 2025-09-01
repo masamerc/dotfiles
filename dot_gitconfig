@@ -29,6 +29,7 @@
     undo = reset --soft HEAD^
     d = diff
     ds = diff --staged
+    where = rev-parse --abbrev-ref HEAD
 
 [user]
 	email = masahiro.m.fukui@gmail.com
