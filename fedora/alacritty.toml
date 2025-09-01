@@ -1,12 +1,12 @@
 general.live_config_reload = true
 
 general.import = [
-    "~/.config/alacritty/themes/atom_one.toml",
+    "~/.config/alacritty/themes/tokyo-night.toml",
 ]
 
-[colors.primary]
-foreground = "#c5c8c6"
-background = "#242729" # dark
+# [colors.primary]
+# foreground = "#c5c8c6"
+# background = "#242729" # dark
 
 [env]
 TERM = "xterm-256color"
