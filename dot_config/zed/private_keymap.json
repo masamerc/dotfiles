@@ -60,6 +60,13 @@
       "ctrl-l": "workspace::ActivatePaneRight"
     }
   },
+  //vim custom
+  {
+    "context": "Editor && VimControl",
+    "bindings": {
+      "shift-e": "vim::EndOfLine"
+    }
+  },
   // nullified keymaps
   {
     "context": "((FileFinder || FileFinder > Picker > Editor) || FileFinder > Picker > menu)",
