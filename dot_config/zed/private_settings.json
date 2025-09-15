@@ -15,6 +15,8 @@
   "ui_font_size": 16,
   "buffer_font_family": "JetBrainsMono Nerd Font Mono",
   "buffer_font_size": 13,
+  "ui_font_family": "Adwaita Sans",
+  "ui_font_fallbacks": ["Open Sans"],
   "theme": {
     "mode": "system",
     "light": "One Light",
