@@ -22,6 +22,7 @@
     "light": "One Light",
     "dark": "Tokyo Night"
   },
+  "relative_line_numbers": true,
   "inlay_hints": {
     // Global switch to toggle hints on and off, switched off by default.
     "enabled": true
