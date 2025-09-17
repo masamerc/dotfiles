@@ -67,6 +67,23 @@
       "shift-e": "vim::EndOfLine"
     }
   },
+  // file explorer actions
+  {
+    "context": "ProjectPanel",
+    "bindings": {
+      "a": "project_panel::NewFile",
+      "r": "project_panel::Rename",
+      "d": "project_panel::Delete",
+      "y": "project_panel::Copy",
+      "p": "project_panel::Paste",
+      "x": "project_panel::Cut",
+      "o": "project_panel::Open",
+      "h": "project_panel::CollapseSelectedEntry",
+      "l": "project_panel::ExpandSelectedEntry",
+      "g g": "menu::SelectFirst",
+      "shift-g": "menu::SelectLast"
+    }
+  },
   // nullified keymaps
   {
     "context": "((FileFinder || FileFinder > Picker > Editor) || FileFinder > Picker > menu)",
