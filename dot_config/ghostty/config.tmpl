@@ -2,6 +2,6 @@
 {{-   include "fedora/config" -}}
 {{- else if eq .chezmoi.hostname "pop-os" -}}
 {{-   include "pop_os/config" -}}
-{{- else if eq .chezmoi.hostname "darwin" -}}
+{{- else if eq .chezmoi.hostname "macos" -}}
 {{-   include "darwin/config" -}}
 {{- end -}}
