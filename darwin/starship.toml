@@ -79,7 +79,7 @@ RedHatEnterprise = "󱄛"
 show_always = true
 style_user = "bg:color_bg1 fg:color_fg0"
 style_root = "bg:color_bg1 fg:color_fg0"
-format = '[ $user ]($style)'
+format = '[ bongo ]($style)'
 
 [directory]
 style = "fg:color_fg0 bg:custom_dark"
