@@ -6,6 +6,13 @@
 // To see the default key bindings run `zed: open default keymap`
 // from the command palette.
 [
+  // disable github copilot etc
+  {
+    "context": "Editor && VimControl", //
+    "bindings": {
+      "space t p": "editor::ToggleEditPrediction"
+    }
+  },
   {
     "context": "Workspace",
     "bindings": {
