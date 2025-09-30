@@ -74,6 +74,12 @@
       "shift-e": "vim::EndOfLine"
     }
   },
+  {
+    "context": "Editor && vim_mode == visual",
+    "bindings": {
+      "shift-s": "vim::PushAddSurrounds"
+    }
+  },
   // file explorer actions
   {
     "context": "ProjectPanel && not_editing",
