@@ -1,2 +1,5 @@
 karabiner/
 README.md
+
+dot_config/zed/prompts/*
+dot_config/zed/conversations/*
