@@ -69,6 +69,12 @@ function cme() {
 }
 unalias zi
 
+
+# global aliases
+alias -g C='| pbcopy'
+alias -g JQ='| jq'
+alias -g NE='2>/dev/null'
+
 # functions
 function take() {
     mkdir -p $1
