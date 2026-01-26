@@ -10,75 +10,75 @@
   {
     "context": "Editor && VimControl", //
     "bindings": {
-      "space t p": "editor::ToggleEditPrediction"
-    }
+      "space t p": "editor::ToggleEditPrediction",
+    },
   },
   {
     "context": "Workspace",
     "bindings": {
       // "shift shift": "file_finder::Toggle"
-    }
+    },
   },
   {
     "context": "Editor && vim_mode == insert",
     "bindings": {
       // "j k": "vim::NormalBefore"
-    }
+    },
   },
   // editor
   {
     "context": "Editor && VimControl",
     "bindings": {
       "shift-l": "pane::ActivateNextItem",
-      "shift-h": "pane::ActivatePreviousItem"
-    }
+      "shift-h": "pane::ActivatePreviousItem",
+    },
   },
   {
     "context": "Editor",
     "bindings": {
       "ctrl-\\": "pane::SplitRight",
-      "ctrl-w": "pane::CloseActiveItem"
-    }
+      "ctrl-w": "pane::CloseActiveItem",
+    },
   },
   // project panel interaction
   {
     "context": "Editor && VimControl",
     "bindings": {
-      "space e": "project_panel::ToggleFocus"
-    }
+      "space e": "project_panel::ToggleFocus",
+    },
   },
   {
     "context": "ProjectPanel",
     "bindings": {
-      "space e": "workspace::ToggleLeftDock"
-    }
+      "space e": "workspace::ToggleLeftDock",
+    },
   },
   {
     "context": "Editor && VimControl",
     "bindings": {
       "ctrl-h": "workspace::ActivatePaneLeft",
-      "ctrl-l": "workspace::ActivatePaneRight"
-    }
+      "ctrl-l": "workspace::ActivatePaneRight",
+    },
   },
   {
     "context": "ProjectPanel",
     "bindings": {
       "ctrl-h": "workspace::ActivatePaneLeft",
-      "ctrl-l": "workspace::ActivatePaneRight"
-    }
+      "ctrl-l": "workspace::ActivatePaneRight",
+    },
   },
   //vim custom
   {
     "context": "Editor && VimControl",
     "bindings": {
-      "shift-e": "vim::EndOfLine"
-    }
+      "shift-e": "vim::EndOfLine",
+    },
   },
   {
     "context": "Editor && vim_mode == visual",
     "bindings": {
-      "shift-s": "vim::PushAddSurrounds"
-    }
+      "shift-s": "vim::PushAddSurrounds",
+    },
   },
   // file explorer actions
   {
@@ -94,80 +94,86 @@
       "h": "project_panel::CollapseSelectedEntry",
       "l": "project_panel::ExpandSelectedEntry",
       "g g": "menu::SelectFirst",
-      "shift-g": "menu::SelectLast"
-    }
+      "shift-g": "menu::SelectLast",
+    },
   },
   // nullified keymaps
   {
     "context": "((FileFinder || FileFinder > Picker > Editor) || FileFinder > Picker > menu)",
     "bindings": {
-      "ctrl-l": null
-    }
+      "ctrl-l": null,
+    },
   },
   {
     "context": "((FileFinder || FileFinder > Picker > Editor) || FileFinder > Picker > menu)",
     "bindings": {
-      "ctrl-l": null
-    }
+      "ctrl-l": null,
+    },
   },
   {
     "context": "((FileFinder || FileFinder > Picker > Editor) || FileFinder > Picker > menu)",
     "bindings": {
-      "ctrl-l": null
-    }
+      "ctrl-l": null,
+    },
   },
   {
     "context": "((FileFinder || FileFinder > Picker > Editor) || FileFinder > Picker > menu)",
     "bindings": {
-      "ctrl-l": null
-    }
+      "ctrl-l": null,
+    },
   },
   {
     "context": "BufferSearchBar",
     "bindings": {
-      "ctrl-l": null
-    }
+      "ctrl-l": null,
+    },
   },
   {
     "context": "((FileFinder || FileFinder > Picker > Editor) || FileFinder > Picker > menu)",
     "bindings": {
-      "ctrl-l": null
-    }
+      "ctrl-l": null,
+    },
   },
   {
     "context": "((FileFinder || FileFinder > Picker > Editor) || FileFinder > Picker > menu)",
     "bindings": {
-      "ctrl-h": null
-    }
+      "ctrl-h": null,
+    },
   },
   {
     "context": "BufferSearchBar",
     "bindings": {
-      "ctrl-h": null
-    }
+      "ctrl-h": null,
+    },
   },
   {
     "context": "Picker > Editor",
     "bindings": {
-      "ctrl-h": null
-    }
+      "ctrl-h": null,
+    },
   },
   {
     "context": "((FileFinder || FileFinder > Picker > Editor) || FileFinder > Picker > menu)",
     "bindings": {
-      "ctrl-h": null
-    }
+      "ctrl-h": null,
+    },
   },
   {
     "context": "((FileFinder || FileFinder > Picker > Editor) || FileFinder > Picker > menu)",
     "bindings": {
-      "ctrl-h": null
-    }
+      "ctrl-h": null,
+    },
   },
   {
     "context": "vim_mode == literal",
     "bindings": {
-      "ctrl-h": null
-    }
-  }
+      "ctrl-h": null,
+    },
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-h": "project_panel::ToggleFocus",
+    },
+  },
 ]
