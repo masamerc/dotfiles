@@ -7,10 +7,27 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "icon_theme": "Catppuccin Frappé",
-  "features": {
-    "edit_prediction_provider": "copilot"
+  "edit_predictions": {
+    "provider": "copilot"
   },
+  "project_panel": {
+    "dock": "left",
+  },
+  "outline_panel": {
+    "dock": "left",
+  },
+  "collaboration_panel": {
+    "dock": "left",
+  },
+  "agent": {
+    "dock": "right",
+    "favorite_models": [],
+    "model_parameters": [],
+  },
+  "git_panel": {
+    "dock": "left",
+  },
+  "icon_theme": "Catppuccin Frappé",
   "vim_mode": true,
   "ui_font_size": 15,
   "buffer_font_family": "JetBrainsMono Nerd Font Mono",
@@ -19,11 +36,11 @@
   "theme": {
     "mode": "system",
     "light": "One Light",
-    "dark": "Tokyo Night"
+    "dark": "Tokyo Night",
   },
-  "relative_line_numbers": true,
+  "relative_line_numbers": "enabled",
   "inlay_hints": {
     // Global switch to toggle hints on and off, switched off by default.
-    "enabled": true
-  }
+    "enabled": true,
+  },
 }

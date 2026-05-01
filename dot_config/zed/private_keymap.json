@@ -48,6 +48,12 @@
     },
   },
   {
+    "context": "Workspace",
+    "bindings": {
+      "space e": "project_panel::ToggleFocus",
+    },
+  },
+  {
     "context": "ProjectPanel",
     "bindings": {
       "space e": "workspace::ToggleLeftDock",
